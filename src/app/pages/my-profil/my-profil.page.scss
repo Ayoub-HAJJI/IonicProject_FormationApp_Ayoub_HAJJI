@@ -1,0 +1,76 @@
+ion-header {
+
+    --ion-background-color: rgb(219, 239, 213);
+    
+    .title {
+
+        text-align: center;
+    }
+
+    ion-title {
+
+        color : rgb(178, 45, 231);
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+ion-content {
+
+    --ion-background-color: rgb(249, 252, 248);
+
+    #title {
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color : rgb(255, 53, 53);
+    }
+
+    .cordoonnes {
+
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    ion-button {
+
+        height: 50px;
+        --background: rgb(183, 240, 159);
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        --border-radius: 15px;
+    }
+
+    .logout {
+
+        margin: 50px 20px 20px 20px;
+    }
+
+    #emailTitle {
+
+        color: rgb(17, 255, 191);
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-right: 5px;
+    }
+
+    #email {
+
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+}

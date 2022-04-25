@@ -1,0 +1,50 @@
+<ion-header> 
+  <ion-toolbar>
+    <ion-title>{{course?.titre}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="image"> 
+    <img [src]="course?.imageLink" width="350px" height="350px" />
+  </div>
+
+  <h2>Sous-Titre :</h2>
+  <p>{{course?.sousTitre}}</p>
+
+  <h2>Mentor :</h2>
+  <p>{{course?.mentor}}</p>
+
+  <h2>Description :</h2>
+  <p>{{course?.description}}</p>
+
+  <h2>Ce que vous allez apprendre :</h2>
+  <div class="ebenefits">
+    <div class="benefits" *ngFor="let benefits of course?.benefits">
+      <ion-icon name="checkmark-circle-outline" id="iconBenefits"></ion-icon>
+      <p>{{benefits}}</p>
+    </div>
+  </div>
+  
+  <h2>Prérequis :</h2>
+  <div class="eprerequis">
+    <div class="prerequis" *ngFor="let prerequis of course?.prerequis">
+      <ion-icon name="checkmark" id="checkpre"></ion-icon>
+      <p>{{prerequis}}</p>
+    </div>
+  </div>
+
+  <h2>Durée :</h2>
+  <p>{{course?.duree}}</p>
+
+  <h2>Prix : </h2>
+  <p>{{course?.prix}}</p>
+
+  <div class="btnSubscribe">
+    <ion-button expand="block" shape="round" (click)="subscribe()">Retour vers les formations</ion-button>
+  </div>
+
+</ion-content>
+    
+

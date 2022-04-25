@@ -1,0 +1,31 @@
+<ion-header>
+  <div class="title">
+      <ion-toolbar>
+        <ion-title>Formations</ion-title>
+      </ion-toolbar>
+  </div>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let item of items | async"> 
+
+    <ion-card-header> 
+      <ion-card-title>{{item.titre}}</ion-card-title>
+    </ion-card-header> 
+    
+    <div class="image">
+      <img [src]="item.image"/>
+    </div>
+
+    <div class="buttonArea">
+      
+        <ion-button id="btnDetails" routerLink="/details/{{item.id}}">Détails</ion-button>
+        <ion-button id="btnSubscribe" routerLink="/inscription/{{item.id}}">S'inscrire</ion-button>
+    
+    </div>
+    
+  </ion-card>
+  
+</ion-content>

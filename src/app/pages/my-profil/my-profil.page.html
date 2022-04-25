@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Mon Profil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p id="title">Bienvenue {{user?.fullName}}</p>
+
+  <div class="cordoonnes">
+    <p id="emailTitle">Votre Email: </p>
+    <p id="email">{{user?.email}}</p>
+  </div>
+
+  <div class="logout">
+    <ion-button (click)="openModal()" id="logout">Se déconnecter</ion-button>
+  </div>
+  
+
+</ion-content> 

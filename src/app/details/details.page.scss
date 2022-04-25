@@ -1,0 +1,86 @@
+ion-header {
+
+    --ion-background-color: rgb(219, 239, 213);
+
+    ion-title {
+
+        color:rgb(172, 167, 7);
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        
+    }
+}
+
+ion-content {
+
+    --ion-background-color: rgb(249, 252, 248);
+    
+
+    .image {
+
+        margin: 30px 20px 30px 20px;
+    }
+    
+    h2 {
+
+        margin: 30px 20px 0px 20px;
+        color: rgb(128, 230, 169);
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    
+    p {
+        margin: 10px 20px 0px 20px;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    .benefits,
+    .prerequis { 
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .ebenefits,
+    .eprerequis {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #iconBenefits, 
+    #checkpre {
+
+        margin-top: 10px;
+        width: 18px;
+        height: 18px;
+    }
+
+    ion-button {
+
+        margin: 50px 20px 20px 20px;
+        height: 50px;
+        --background: rgb(183, 240, 159);
+        font-weight: bold;
+        font-size: 18px;
+        --border-radius: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+    }
+
+    .btnSubscribe {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+}
+

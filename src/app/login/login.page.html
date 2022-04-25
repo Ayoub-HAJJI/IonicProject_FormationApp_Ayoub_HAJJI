@@ -1,0 +1,31 @@
+  <ion-content class="container">
+  
+      <ion-list>
+
+          <h2>S'authentifier</h2>
+          
+          <ion-item class="username">
+            <ion-label position="floating" color="success">Nom d'utilisateur</ion-label>
+            <ion-input clearInput="true" inputmode="text" type="text" [(ngModel)]="username"></ion-input>
+          </ion-item>
+    
+          <ion-item class="password">
+            <ion-label position="floating" color="success">Mot de passe</ion-label>
+            <ion-input clearInput="true" inputmode="text" type="password" [(ngModel)]="password"></ion-input>
+         </ion-item>
+    
+      </ion-list>
+  
+    <ion-button expand="block" shape="round" id="buttonConnecter" (click)="login()">Se Connecter</ion-button>
+
+    <ion-button expand="block" shape="round" id="buttonRegister" (click)="register()">S'enregistrer</ion-button>
+
+    <a href="" (click)="resetPassword()"><p id="forgotPassword">Vous avez oublié votre mot de passe ?</p></a>
+
+  </ion-content>
+
+
+
+
+
+

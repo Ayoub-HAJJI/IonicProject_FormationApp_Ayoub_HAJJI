@@ -1,0 +1,42 @@
+ion-content {
+
+    --ion-background-color: rgb(249, 252, 248);
+    
+    p {
+
+        color: rgb(128, 230, 169);
+        font-size: 18px;
+    }
+
+    .container {
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    ion-button {
+
+        height: 50px;
+        --background: rgb(183, 240, 159);
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+    }
+    .buttonArea {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #btnQuitter {
+
+        margin-right: 15px;
+    }
+
+}
+

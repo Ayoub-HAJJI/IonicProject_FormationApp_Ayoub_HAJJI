@@ -1,0 +1,36 @@
+<ion-header>
+  <div class="title">
+      <ion-toolbar>
+        <ion-title>Mes Cours</ion-title>
+      </ion-toolbar>
+  </div>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let myCourse of myCourses"> 
+
+    <ion-card-header>
+      <ion-card-title>{{myCourse?.titre}}</ion-card-title>
+    </ion-card-header>
+    
+    <div class="image">
+      <img [src]="myCourse?.imageLink" height="350px"/>
+    </div>
+
+  </ion-card>
+
+  <!-- <ion-card *ngFor="let item of myCourses1"> 
+
+    <ion-card-header>
+      <ion-card-title>{{item?.titre}}</ion-card-title>
+    </ion-card-header>
+    
+    <div class="image">
+      <img [src]="item?.image" height="350px"/>
+    </div>
+
+  </ion-card> -->
+  
+</ion-content>

@@ -1,0 +1,57 @@
+ion-header {
+
+    --ion-background-color: rgb(219, 239, 213);
+    
+    .title { 
+
+        text-align: center;
+    }
+
+    ion-title {
+
+        color : rgb(236, 111, 22);
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+ion-content {
+
+    --ion-background-color: rgb(249, 252, 248);
+
+    ion-card {
+
+        --ion-background-color: rgb(236, 249, 232);
+        border-radius: 15px;
+
+        ion-card-header {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            ion-card-title {
+
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+
+        .image {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 350px;
+            margin-left: 10px;
+            margin-right: 10px; 
+            margin-bottom: 20px;
+        }
+
+    }
+}
+

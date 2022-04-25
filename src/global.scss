@@ -24,3 +24,15 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+
+.my-modal-component-css{
+
+
+    --height: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    --border-radius: 15px;
+
+}

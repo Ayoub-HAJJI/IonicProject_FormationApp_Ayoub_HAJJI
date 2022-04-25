@@ -1,0 +1,38 @@
+<ion-content class="container">
+  
+    <ion-list>
+
+        <h2>S'enregistrer</h2>
+        
+        <ion-item class="username">
+          <ion-label position="floating" color="success">Nom d'utilisateur</ion-label>
+          <ion-input clearInput="true" inputmode="text" type="text" [(ngModel)]="username"></ion-input>
+        </ion-item>
+
+        <ion-item class="password">
+          <ion-label position="floating" color="success">Mot de passe</ion-label>
+          <ion-input clearInput="true" inputmode="text" type="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
+
+        <ion-item class="password">
+          <ion-label position="floating" color="success">Confirmer le mot de passe</ion-label>
+          <ion-input clearInput="true" inputmode="text" type="password" [(ngModel)]="cpassword"></ion-input>
+        </ion-item>
+
+    </ion-list>
+
+  <div class="checkPart">
+    <ion-checkbox (click)="isChecked()"></ion-checkbox>
+    <p class="checkText">Accepter les termes et les conditions</p>
+  </div>
+  
+
+  <ion-button expand="block" shape="round" id="buttonRegister" (click)="register()">Créer le compte</ion-button>
+
+</ion-content>
+
+
+
+
+
+

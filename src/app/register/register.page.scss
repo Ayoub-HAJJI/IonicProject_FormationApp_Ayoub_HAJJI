@@ -1,0 +1,92 @@
+ion-content {
+
+    --ion-background-color: rgb(249, 252, 248);
+
+    h2 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgb(128, 230, 169);
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    ion-button{ 
+        
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 50px;
+        --background: rgb(183, 240, 159);
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #buttonRegister {
+
+        margin-top: 70px;
+    }
+
+    ion-item {
+
+        margin-left: 30px;
+        margin-right: 30px;
+        --background: rgb(239, 249, 235);
+        --border-radius: 15px;
+        
+    }
+
+    .username {
+
+        margin-top: 130px;
+    }
+
+    .password {
+
+        margin-top: 25px;
+    }
+
+    .checkPart {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .checkText {
+
+        margin-left: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(171, 217, 153);
+    }
+
+    ion-checkbox {
+
+        --background: rgb(250, 250, 250);
+        --background-checked: rgb(128, 230, 169);
+        --border-color-checked: rgb(183, 240, 159);
+    }
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
